@@ -1,0 +1,38 @@
+﻿<Window x:Class="chess_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="770" Width="1225" MouseMove="Window_MouseMove_1" MouseUp="Window_MouseUp_1" MouseDown="Window_MouseDown_1">
+    
+<Grid x:Name="outerGrid">
+
+        <Image x:Name="board" HorizontalAlignment="Left" Height="622" Margin="100,50,0,0" VerticalAlignment="Top" Width="671" Source="Resources/board.png"/>
+        <Image x:Name="Pawn1" Height="80" Width="80" Source="Resources/w_pawn.png" Canvas.Left="40" Margin="410,516,727,144"/>
+        <Image Height="80" Width="80" Source="Resources/w_pawn.png" Margin="100,516,1037,144"/>
+        <Label x:Name="MarginLabel" Content="Label" HorizontalAlignment="Left" Margin="968,108,0,0" VerticalAlignment="Top" Height="40" Width="112"/>
+        <Label x:Name="TextLabel" Content="Label" HorizontalAlignment="Left" Margin="968,168,0,0" VerticalAlignment="Top" Height="40" Width="112"/>
+        <Label x:Name="StartLabel" Content="Label" HorizontalAlignment="Left" Margin="968,228,0,0" VerticalAlignment="Top" Height="40" Width="112"/>
+        <Label Content="MouseDown" HorizontalAlignment="Left" Margin="886,366,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="mouseDownInPx" Content="Label" HorizontalAlignment="Left" Margin="968,366,0,0" VerticalAlignment="Top"/>
+        <Label Content="MouseUp" HorizontalAlignment="Left" Margin="886,412,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="mouseUpInPx" Content="Label" HorizontalAlignment="Left" Margin="968,412,0,0" VerticalAlignment="Top"/>
+        <Label Content="pixels" HorizontalAlignment="Left" Margin="968,331,0,0" VerticalAlignment="Top"/>
+    
+        <Label x:Name="mouseDownPos" Content="Label" HorizontalAlignment="Left" Margin="1042,366,0,0" VerticalAlignment="Top"/>
+        <Label Content="row; col" HorizontalAlignment="Left" Margin="1042,331,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="mouseUpPos" Content="Label" HorizontalAlignment="Left" Margin="1042,412,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="mouseDownPiece" Content="Label" HorizontalAlignment="Left" Margin="1100,366,0,0" VerticalAlignment="Top"/>
+        <Label Content="Piece" HorizontalAlignment="Left" Margin="1100,331,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="mouseUpPiece" Content="Label" HorizontalAlignment="Left" Margin="1100,412,0,0" VerticalAlignment="Top"/>
+
+        <Image Height="80" Width="80" Source="Resources/w_pawn.png" Margin="175,516,962,144"/>
+        <Image Height="80" Width="80" Source="Resources/w_pawn.png" Margin="255,516,882,144"/>
+        <Image Height="80" Width="80" Source="Resources/w_pawn.png" Margin="330,516,807,144"/>
+        <Image Height="80" Width="80" Source="Resources/w_pawn.png" Margin="485,516,652,144"/>
+        <Image Height="80" Width="80" Source="Resources/w_pawn.png" Margin="565,516,572,144"/>
+        <Image Height="80" Width="80" Source="Resources/w_pawn.png" Margin="645,516,492,144"/>
+    </Grid>
+    
+</Window>   
+    
+    
